@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: brown; */
+  
+}
+
+body {
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.white {
+  color: white;
+}
+
+header {
+  height: 90px;
+  padding: 20px 0;
+  border-bottom: 1px solid grey;
+  line-height: 50px;
+}
+
+header img {
+  height: 100%;
+  vertical-align: middle;
+}
+
+header h1{
+  display: inline-block;
+}
+
+.count-mail {
+  display: inline-block;
+  /* padding: 20px; */
+  border-radius: 100%;
+  background-color: orange;
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  text-align: center;
+}
